@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Little Invest</title>
     </head>
@@ -11,22 +12,22 @@
         <nav class="menu-bg">
             <div class="menu">
                 <div class="menu-logo">
-                    <a href="#"><img src="img/little-invest.svg" alt="Logo"></a>
+                    <a href="index.html"><img src="img/little-invest.svg" alt="Logo"></a>
                 </div>
                 <nav class="menu-nav">
                     <ul>
-                        <li>Investimentos</li>
-                        <li>Serviços</li>
-                        <li>Contato</li>
-                        <li><button>Cadastre-se</button></li>
+                        <li><a href="#investimentos">Investimentos</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><button class="btn">Cadastre-se</button></li>
                     </ul>
                 </nav>
             </div>
         </nav>
         <div class="intro">
             <div class="intro-info">
-                <h1>Planeje o seu futuro <br>sem perder tempo <br>no presente</h1>
-                <button>Investir agora</button>
+                <p>Planeje o seu futuro <br>sem perder tempo <br>no presente</p>
+                <a href="cadastro.html"><button class="btn">Investir agora</button></a>
             </div>
             <div class="intro-img">
                 <img src="img/notre-dame.svg" alt="Notre Dame">
@@ -36,95 +37,108 @@
             <div class="investimento">
                 <div class="investimento-info">
                     <h2>LCI 2021/12</h2>
-                    <h2>110% do CDB</h2>
+                    <h2 class="desc">110% do CDB</h2>
                     <p>Banco Certo</p>
-                    <button>Adicionar <img src="img/plus.svg"></button>
+                    <button class="btn">Adicionar <img src="img/plus.svg"></button>
                 </div>
                 <div class="investimento-info">
                     <h2>LCI 2023/01</h2>
-                    <h2>115% do CDB</h2>
+                    <h2 class="desc">115% do CDB</h2>
                     <p>Santrafe</p>
-                    <button>Adicionar <img src="img/plus.svg"></button>
+                    <button class="btn">Adicionar <img src="img/plus.svg"></button>
                 </div>
                 <div class="investimento-info">
                     <h2>LCI 2025/06</h2>
-                    <h2>117% do CDB</h2>
+                    <h2 class="desc">117% do CDB</h2>
                     <p>Banco Inova</p>
-                    <button>Adicionar <img src="img/plus.svg"></button>
+                    <button class="btn">Adicionar <img src="img/plus.svg"></button>
                 </div>
                 <div class="investimento-info">
                     <h2>LCI 2030/12</h2>
-                    <h2>150% do CDB</h2>
+                    <h2 class="desc">150% do CDB</h2>
                     <p>Cofre Agora</p>
-                    <button>Adicionar <img src="img/plus.svg"></button>
+                    <button class="btn">Adicionar <img src="img/plus.svg"></button>
                 </div>
             </div>
         </div>
         <div class="vantagens">
             <h1>Mais fácil que gastar dinheiro</h1>
-            <div class="vantagens-item">
-                <img src="img/monitor-window.svg" alt="Vantagem 1">
-                <h2>Acesso Online</h2>
-                <p>Acesse a nossa plataforma e escolha o seu plano</p>
+            <div class="vantagens-container">
+                <div class="vantagens-item">
+                    <img src="img/monitor-window.svg" alt="Vantagem 1">
+                    <h2>Acesso Online</h2>
+                    <p>Acesse a nossa plataforma <br>e escolha o seu plano</p>
+                </div>
+                <div class="vantagens-item">
+                    <img src="img/monitor-loading-progress.svg" alt="Vantagem 2">
+                    <h2>Rendimento Fácil</h2>
+                    <p>Espere até a data de <br>resgate e acompanhe o <br>rendimento</p>
+                </div>
+                <div class="vantagens-item">
+                    <img src="img//monitor-cash-credit-card.svg" alt="Vantagem 3">
+                    <h2>Resgate Simples</h2>
+                    <p>Retire o rendimento e <br>gaste parte em viagens e <br>compras</p>
+                </div>
             </div>
-            <div class="vantagens-item">
-                <img src="img/monitor-loading-progress.svg" alt="Vantagem 2">
-                <h2>Rendimento Fácil</h2>
-                <p>Espere até a data de resgate e acompanhe o rendimento</p>
-            </div>
-            <div class="vantagens-item">
-                <img src="img//monitor-cash-credit-card.svg" alt="Vantagem 3">
-                <h2>Resgate Simples</h2>
-                <p>Retire o rendimento e gaste parte em viagens e compras</p>
-            </div>
-            <button>Entre em contato</button>
+            <button class="btn">Entre em contato</button>
         </div>
         <div class="quote-bg">
-            <div class="quote">
-                <h1>“</h1>
-                <p>Com o Little Invest eu pude ter <br>certeza que o meu dinheiro estava <br>rendendo sem ter que perder tempo <br>do meu dia pensando onde investir</p>
-                <p>Gabriela Marques</p>
+            <div class="quote-container">
+                <p class="aspa">“</p>
+                <div class="quote">
+                    <p class="quote-text">Com o Little Invest eu pude ter <br>certeza que o meu dinheiro estava <br>rendendo sem ter que perder tempo <br>do meu dia pensando onde investir</p>
+                    <p class="quote-name">Gabriela Marques</p>
+                </div>
             </div>
         </div>
         <div class="contato">
             <div class="contato-form">
                 <h1>Crie a sua conta</h1>
                 <form>
-                    <label>Nome</label>
+                    <label>Nome</label><br>
                     <input type="text">
                     <br>
-                    <label>E-Mail</label>
-                    <input type="text">
-                    <button>Iniciar Cadastro</button>
+                    <label>E-Mail</label><br>
+                    <input type="text"><br>
+                    <a href="cadastro.html"><button class="btn">Iniciar Cadastro</button></a>
                 </form>
             </div>
             <div class="contato-img">
                 <img src="img/customer-service-woman.svg" alt="Contato imagem">
+                <p>Ajuda 24h do nosso suporte online</p>
             </div>
         </div>
         <footer class="footer-bg">
-            <div class="footer-info">
-                <div class="mapa">
-                    <h2>Mapa do site</h2>
-                    <ul>
-                        <li>Home</li>
-                        <li>Investimento</li>
-                        <li>Serviços</li>
-                        <li>Conta</li>
-                        <li>Termos</li>
-                        <li>Contato</li>
-                    </ul>
-                </div>
-                <div class="redes">
-                    <h2>Redes Sociais</h2>
-                    <img src="img/facebook.svg" alt="Facebook">
-                    <img src="img/instagram.svg" alt="Instagram">
-                    <img src="img/twitter.svg" alt="Twitter">
-                    <img src="img/youtube.svg" alt="YouTube">
-                </div>
-                <div class="sobre">
-                    <h2>Sobre</h2>
-                    <p>A little invest é uma empresa de investimentos criada para <br>facilitar a vida de investidores. Com ela você investe <br>rapidamente o seu dinheiro.</p>
+            <div class="footer">
+                <div class="footer-info">
+                    <div class="mapa">
+                        <h2>Mapa do site</h2>
+                        <div class="list">
+                            <ul>
+                                <li>Home</li>
+                                <li>Investimento</li>
+                                <li>Serviços</li>
+                            </ul>
+                            <ul>
+                                <li>Conta</li>
+                                <li>Termos</li>
+                                <li>Contato</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="redes">
+                        <h2>Redes Sociais</h2>
+                        <div class="redes-img">
+                            <img src="img/facebook.svg" alt="Facebook">
+                            <img src="img/instagram.svg" alt="Instagram">
+                            <img src="img/twitter.svg" alt="Twitter">
+                            <img src="img/youtube.svg" alt="YouTube">
+                        </div>
+                    </div>
+                    <div class="sobre">
+                        <h2>Sobre</h2>
+                        <p>A little invest é uma empresa de investimentos criada para <br>facilitar a vida de investidores. Com ela você investe <br>rapidamente o seu dinheiro.</p>
+                    </div>
                 </div>
             </div>
             <div class="direitos">
